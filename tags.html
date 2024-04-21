@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        #head{
+        margin-top: 25px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+        color: rgb(79, 79, 152)
+     }
+     #rightside{
+        display: inline-flex;
+        margin-top: 25px;
+        padding-left: 550px;
+        
+     }
+     #font{
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 20px;
+      }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: flex;flex-direction: row;">
+        <a href="home.html"><img  src="AG-logo-design-vector-Graphics-17912997-1-1-580x369-removebg-preview.png" alt="adventure group" width="100" height="100"></a>
+            <div id="head"><h1><b>Adventure group</b></h1></div>
+            <div id="font">
+                <div id="rightside">
+                <a href="home.html" style="text-decoration: none;"><h4 id="hm">Home</h4></a>
+            </div>
+        </div>      
+    </div>
+    <div class="container">
+        <form action="" id="form">
+            <h2>Sign up</h2>
+            <div class="input-group">
+                <label for="Name">User name</label>
+                <input type="text" id="Name" name="Name" placeholder="Name">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="cpassword">Confirm password</label>
+                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Register</button>
+            <h4 style="text-align: center;">already have an account? <a href="signin.html" style="text-decoration: none;">Sign in</a></h4>
+        </form>
+
+    </div>
+</body>
+</html>
